@@ -1,4 +1,4 @@
 interface:
   display_name: "知识类自媒体封面"
-  short_description: "生成黑白雕刻、暗红点缀与单一主图的统一知识栏目封面"
-  default_prompt: "Use $create-knowledge-media-cover to create a cover from my category label, title, and target aspect ratio."
+  short_description: "生成暖象牙纸、大标题、黑白或克制彩色主图的统一知识封面"
+  default_prompt: "Use $create-knowledge-media-cover to create a 黑白主版 or 克制彩色版 in 竖屏版、公众号版、X版，or all three. Infer the hook from my category and title when I omit it, then infer the conceptual image. Keep the full-height text column illustration-free; for vertical covers, make text dominant and use 右侧半隐人物构图."
