@@ -14,17 +14,23 @@
 - 用完整高度的文字保护区确保标题不被人物、道具、阴影或装饰线干扰；
 - 保持同一套暖象牙背景、暗红标签、双分隔线与标题优先层级。
 
-## 参考效果
+## 完整案例
+
+下面三张图使用同一主题与文案，分别为竖屏、公众号和 X 原生构图。它们不是从同一张母版裁切而来，而是根据每个平台的比例重新安排标题、人物、动作和安全留白。
 
 ### 3:4 竖屏版
 
-![3:4 竖屏版参考](assets/reference-vertical-3x4.png)
+![DeepSeek Harness 3:4 竖屏版封面](assets/example-deepseek-vertical.png)
 
 ### 公众号横版
 
-![公众号横版参考](assets/reference-wechat-wide.png)
+![DeepSeek Harness 公众号横版封面](assets/example-deepseek-wechat.png)
 
-参考图只用于约束版式、层级、色彩和完成度。每次生成都会根据新主题替换文字、人物、物体和视觉隐喻。
+### X 横版
+
+![DeepSeek Harness X 横版封面](assets/example-deepseek-x.png)
+
+案例图用于展示同一套视觉系统如何适配不同平台。Skill 内部仍使用独立的规范参考图约束版式、层级、色彩和完成度；每次生成都会根据新主题替换文字、人物、物体和视觉隐喻。
 
 ## 安装
 
@@ -93,6 +99,9 @@ create-knowledge-media-cover/
 ├── agents/
 │   └── openai.yaml
 ├── assets/
+│   ├── example-deepseek-vertical.png
+│   ├── example-deepseek-wechat.png
+│   ├── example-deepseek-x.png
 │   ├── reference-vertical-3x4.png
 │   └── reference-wechat-wide.png
 └── references/
